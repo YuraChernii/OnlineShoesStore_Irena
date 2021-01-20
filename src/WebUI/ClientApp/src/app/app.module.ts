@@ -16,6 +16,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { AppRoutingModule } from './app-routing.module';
 import { CardComponent } from './card/card.component';
+import { FormComponent } from './form/form.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { CardComponent } from './card/card.component';
     CounterComponent,
     FetchDataComponent,
     TodoComponent,
-    CardComponent
+    CardComponent,
+    FormComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

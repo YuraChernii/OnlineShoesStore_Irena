@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+.card {
+  padding: .5rem 1rem;
+  border: 1px dashed #ccc;
+  margin-bottom: 1rem;
 
-namespace CleanArchitecture.WebUI.ClientApp.src.app.card
-{
-    public class card
-    {
-    }
+  h2 {
+    margin-bottom: .5rem;
+  }
 }
